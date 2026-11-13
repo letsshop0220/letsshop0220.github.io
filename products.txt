@@ -1,0 +1,68 @@
+# Let's Shop0220 product list
+# One product per line, like this:
+# Category | Product name | Link | Photo link (optional)
+#
+# Lines that start with # are notes. The site skips them.
+# A messy line is skipped. It will not break the site.
+# A new category name makes a new section.
+# A category with no lines hides itself.
+# Videos works the same way. Add a video link and a Videos section appears.
+# Leave Videos empty and that section stays hidden.
+#
+# Example (this note is hidden):
+# Videos | Saturday outfit | https://www.tiktok.com/example
+
+Makeup | Rare Beauty Soft Pinch Liquid Blush | https://www.sephora.com/product/rare-beauty-by-selena-gomez-soft-pinch-liquid-blush-P97989778
+Makeup | Charlotte Tilbury Matte Revolution Lipstick | https://www.sephora.com/product/matte-revolution-lipstick-P433530
+Makeup | NARS Radiant Creamy Concealer | https://www.sephora.com/product/radiant-creamy-concealer-P377873
+Makeup | e.l.f. Halo Glow Liquid Filter | https://www.ulta.com/p/halo-glow-liquid-filter-pimprod2036949
+
+Skincare | CeraVe Hydrating Facial Cleanser | https://www.ulta.com/p/hydrating-facial-cleanser-xlsImpprod4190255
+Skincare | The Ordinary Niacinamide 10% + Zinc 1% | https://www.sephora.com/product/the-ordinary-deciem-niacinamide-10-zinc-1-P427417
+Skincare | La Roche-Posay Anthelios Melt-in Milk SPF 60 | https://www.ulta.com/p/anthelios-melt-in-milk-body-face-sunscreen-spf-60-pimprod2018267
+Skincare | Laneige Lip Sleeping Mask | https://www.sephora.com/product/lip-sleeping-mask-P420652
+
+Hair | Olaplex No.3 Hair Perfector | https://www.sephora.com/product/olaplex-hair-perfector-no-3-P428224
+Hair | Color Wow Dream Coat Supernatural Spray | https://www.sephora.com/product/color-wow-dream-coat-supernatural-treatment-spray-for-frizzy-hair-P469065
+Hair | Moroccanoil Treatment | https://www.sephora.com/product/moroccanoil-treatment-P412090
+Hair | Living Proof Sheer Clean Dry Shampoo | https://www.ulta.com/p/sheer-clean-non-aerosol-micellar-dry-shampoo-mist-pimprod2060636
+
+Jeans | Levi's Women's 501 Original Jeans | https://www.levi.com/US/en_US/clothing/women/jeans/straight/501-original-fit-womens-jeans/p/125010440
+Jeans | Universal Thread High-Rise Straight Jeans | https://www.target.com/p/women-39-s-everyday-high-rise-straight-jeans-universal-thread-8482-medium-wash-2/-/A-94332981
+Jeans | Abercrombie Curve Love High Rise 90s Straight Jean | https://www.abercrombie.com/shop/us/p/curve-love-high-rise-90s-straight-jean-63108892
+Jeans | Old Navy High-Waisted OG Straight Jeans | https://oldnavy.gap.com/browse/search.do?searchText=women%20high-waisted%20OG%20straight%20jeans
+
+Tops | A New Day Ribbed Tank Top | https://www.target.com/p/women-s-ribbed-tank-top-a-new-day/-/A-81521821
+Tops | Universal Thread Relaxed Flannel Shirt | https://www.target.com/p/women-39-s-long-sleeve-relaxed-fit-flannel-button-down-shirt-universal-thread-8482-brown-s/-/A-1010684793
+Tops | A New Day Crewneck Tee | https://www.target.com/s?searchTerm=a+new+day+women+crewneck+t-shirt
+Tops | Old Navy Classic Tee | https://oldnavy.gap.com/browse/search.do?searchText=women%20classic%20tee
+
+Dresses | A New Day Sweetheart Midi Dress | https://www.target.com/p/women-s-midi-dress-a-new-day/-/A-95300174
+Dresses | A New Day Satin Slip Maxi Dress | https://www.target.com/p/women-39-s-maxi-slip-dress-a-new-day-8482-black-l/-/A-93712571
+Dresses | A New Day Satin Midi Slip Dress | https://www.target.com/p/women-s-satin-spray-midi-slip-dress-a-new-day/-/A-94925373
+Dresses | Old Navy Knit Midi Dress | https://oldnavy.gap.com/browse/search.do?searchText=women%20knit%20midi%20dress
+
+Jackets & Coats | Universal Thread Relaxed Denim Bomber Jacket | https://www.target.com/p/women-39-s-relaxed-denim-bomber-jacket-universal-thread-8482-medium-wash-xxl/-/A-94333611
+Jackets & Coats | Old Navy Classic Jean Jacket | https://oldnavy.gap.com/browse/search.do?searchText=women%20classic%20jean%20jacket
+Jackets & Coats | Levi's Women's Trucker Jacket | https://www.levi.com/US/en_US/search?q=women%20trucker%20jacket
+Jackets & Coats | A New Day Wool-Blend Coat | https://www.target.com/s?searchTerm=women+wool+blend+coat
+
+Activewear | All in Motion Ultra High-Rise Leggings | https://www.target.com/p/women-s-everyday-soft-ultra-high-rise-leggings-all-in-motion/-/A-88170120
+Activewear | Nike Sportswear Classics High-Waisted Leggings | https://www.nike.com/t/sportswear-classics-womens-high-waisted-graphic-leggings-OicMCJsR
+Activewear | Jordan Sport Women's High-Waisted Leggings | https://www.nike.com/t/jordan-sport-womens-dri-fit-high-waisted-leggings-kqKZZN
+Activewear | All in Motion Sports Bra | https://www.target.com/s?searchTerm=all+in+motion+women+sports+bra
+
+Shoes | Nike Air Force 1 '07 Women's Shoes | https://www.nike.com/t/air-force-1-07-womens-shoes-b19lqD/DD8959-100
+Shoes | adidas Samba OG Shoes | https://www.adidas.com/us/samba-og-shoes/JR0035.html
+Shoes | Nike Court Legacy Lift Women's Shoes | https://www.nike.com/t/court-legacy-lift-womens-shoes-x0B6BB
+Shoes | A New Day Ruthie Ballet Flats | https://www.target.com/p/women-39-s-ruthie-ballet-flats-a-new-day-8482-cream-8/-/A-1010659696
+
+Bags | A New Day Satchel Crossbody | https://www.target.com/p/satchel-crossbody-bag-a-new-day-8482-tan/-/A-94780336
+Bags | Universal Thread Tote Bag | https://www.target.com/s?searchTerm=universal+thread+women+tote+handbag
+Bags | Longchamp Le Pliage Original Tote | https://www.longchamp.com/us/en/search?q=Le%20Pliage%20Original
+Bags | Small Leather Crossbody Bag | https://www.amazon.com/s?k=women+small+leather+crossbody+bag
+
+Jewelry & Accessories | Mejuri Large Hoops | https://mejuri.com/products/large-hoops
+Jewelry & Accessories | Kendra Scott Elisa Gold Pendant Necklace | https://www.kendrascott.com/new/all-new-arrivals/elisa-gold-short-pendant-necklace/196088905372.html
+Jewelry & Accessories | Kendra Scott Elisa Scallop Frame Necklace | https://www.kendrascott.com/jewelry/necklaces/elisa-scallop-frame-gold-short-pendant-necklace/196088943305.html
+Jewelry & Accessories | Gold Hoop Earrings | https://www.target.com/s?searchTerm=women+gold+hoop+earrings
