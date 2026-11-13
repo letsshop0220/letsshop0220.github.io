@@ -1,0 +1,34 @@
+Let's Shop0220 — how to update the shop
+
+PRODUCTS
+The product file is products.txt. One product per line:
+
+Category | Product name | Link | Photo link (optional)
+
+ADD A PRODUCT
+1. Open products.txt.
+2. Add one line, for example:
+   Jeans | Black straight jeans | https://www.store.com/the-jeans
+3. Save. The live site updates on its own in a few minutes.
+
+REMOVE A PRODUCT
+Delete that whole line and save.
+
+ADD A CATEGORY
+Use a new category name on the line. A Hats line makes a Hats section.
+A category with no lines hides itself.
+
+ADD A VIDEO
+Videos | Saturday outfit | https://www.tiktok.com/your-video-link
+If there are no Videos lines, that section stays hidden.
+
+ADD YOUR OWN PHOTO
+Put an image link in the last spot:
+Jeans | Black straight jeans | https://www.store.com/the-jeans | https://your-photo-link.jpg
+
+NOTES
+- A line that starts with # is a note. The site ignores it.
+- A messy line is skipped. It will not break the site.
+- Do not put prices in the product file.
+- The name on the site stays Let's Shop0220.
+- Do not put brand emails in this public folder.

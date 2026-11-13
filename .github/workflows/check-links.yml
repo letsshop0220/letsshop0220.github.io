@@ -1,0 +1,41 @@
+name: Check product links
+
+on:
+  schedule:
+    # Every Monday at 14:00 UTC.
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Hide links that are clearly missing
+        id: check
+        continue-on-error: true
+        run: node scripts/check-product-links.mjs --write
+      - name: Save the hidden links
+        run: |
+          git config user.name "lets-shop-0220"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add products.txt link-check-report.txt || true
+          if git diff --cached --quiet; then
+            echo "Nothing to save"
+          else
+            git commit -m "Hide product links that no longer open"
+            git push
+          fi
+      - name: Send the list
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Product links to update" --body-file link-check-report.txt || true
