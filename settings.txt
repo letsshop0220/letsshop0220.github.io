@@ -1,0 +1,7 @@
+# Let's Shop0220 settings
+# tagline | the one line under the name
+# contact | the email brands should use
+# Leave contact empty until you are ready. The button appears when an email is here.
+
+tagline | Fashion and beauty finds, gathered in one place.
+contact | 
